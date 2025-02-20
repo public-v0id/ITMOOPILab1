@@ -1,9 +1,168 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64; rv:134.0) Gecko/20100101 Firefox/134.0" version="24.8.9">
   <diagram name="Страница — 1" id="uJSsruG9rrBtv8y02ffY">
-    <mxGraphModel>
+    <mxGraphModel dx="1114" dy="1240" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="HuEyecqMvvr7R-wiwZbG-11" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="HuEyecqMvvr7R-wiwZbG-5" target="HuEyecqMvvr7R-wiwZbG-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HuEyecqMvvr7R-wiwZbG-5" value="&lt;div&gt;Администратор&lt;/div&gt;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-62" y="1406" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HuEyecqMvvr7R-wiwZbG-13" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="HuEyecqMvvr7R-wiwZbG-7" target="HuEyecqMvvr7R-wiwZbG-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HuEyecqMvvr7R-wiwZbG-7" value="Авторизованный&lt;br&gt;пользователь&lt;br&gt;(преподаватель)" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-62" y="862" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HuEyecqMvvr7R-wiwZbG-15" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="HuEyecqMvvr7R-wiwZbG-12" target="HuEyecqMvvr7R-wiwZbG-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HuEyecqMvvr7R-wiwZbG-12" value="&lt;div&gt;Авторизованный&lt;/div&gt;&lt;div&gt;пользователь&lt;/div&gt;&lt;div&gt;(студент или его&lt;/div&gt;&lt;div&gt;представитель)&lt;br&gt;&lt;/div&gt;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-62" y="169" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HuEyecqMvvr7R-wiwZbG-14" value="&lt;div&gt;Неавторизованный&lt;/div&gt;&lt;div&gt;пользователь&lt;br&gt;&lt;/div&gt;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-62" y="-256" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HuEyecqMvvr7R-wiwZbG-16" value="&lt;div&gt;Авторизация через ITMO.ID&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="93" y="-297" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="HuEyecqMvvr7R-wiwZbG-19" value="Авторизация через логин и пароль" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="93" y="-206" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="HuEyecqMvvr7R-wiwZbG-20" value="Просмотр успеваемости по предмету" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="93" y="130.5" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="HuEyecqMvvr7R-wiwZbG-21" value="Выбор предмета" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="334" y="92" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="HuEyecqMvvr7R-wiwZbG-22" value="Выбор семестра" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="334" y="169" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="HuEyecqMvvr7R-wiwZbG-23" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;" edge="1" parent="1" source="HuEyecqMvvr7R-wiwZbG-20" target="HuEyecqMvvr7R-wiwZbG-22">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="84" y="246.5" as="sourcePoint" />
+            <mxPoint x="244" y="246.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HuEyecqMvvr7R-wiwZbG-24" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;" edge="1" parent="1" source="HuEyecqMvvr7R-wiwZbG-20" target="HuEyecqMvvr7R-wiwZbG-21">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="84" y="246.5" as="sourcePoint" />
+            <mxPoint x="244" y="246.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HuEyecqMvvr7R-wiwZbG-25" value="Формирование отчета об успеваемости в виде таблицы" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="93" y="235.5" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="HuEyecqMvvr7R-wiwZbG-27" value="&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;" edge="1" parent="1" source="HuEyecqMvvr7R-wiwZbG-25" target="HuEyecqMvvr7R-wiwZbG-20">
+          <mxGeometry x="-1" y="-1" width="160" relative="1" as="geometry">
+            <mxPoint x="164" y="276.5" as="sourcePoint" />
+            <mxPoint x="324" y="276.5" as="targetPoint" />
+            <mxPoint x="-1" y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HuEyecqMvvr7R-wiwZbG-28" value="Просмотр дедлайнов" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="93" y="340.5" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="HuEyecqMvvr7R-wiwZbG-29" value="Выбор месяца" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="334" y="340.5" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="HuEyecqMvvr7R-wiwZbG-30" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;" edge="1" parent="1" source="HuEyecqMvvr7R-wiwZbG-28" target="HuEyecqMvvr7R-wiwZbG-29">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="166" y="244.5" as="sourcePoint" />
+            <mxPoint x="326" y="244.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HuEyecqMvvr7R-wiwZbG-31" value="Просмотр баллов за контрольную точку" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="93" y="22" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="HuEyecqMvvr7R-wiwZbG-32" value="&lt;div&gt;Просмотр информации о неутвержденных контрольных точках&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="93" y="-86" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="HuEyecqMvvr7R-wiwZbG-33" value="&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;" edge="1" parent="1" source="HuEyecqMvvr7R-wiwZbG-20" target="HuEyecqMvvr7R-wiwZbG-31">
+          <mxGeometry x="-0.9221" width="160" relative="1" as="geometry">
+            <mxPoint x="239" y="95" as="sourcePoint" />
+            <mxPoint x="399" y="95" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HuEyecqMvvr7R-wiwZbG-34" value="&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;" edge="1" parent="1" source="HuEyecqMvvr7R-wiwZbG-20" target="HuEyecqMvvr7R-wiwZbG-32">
+          <mxGeometry x="-0.3818" y="19" width="160" relative="1" as="geometry">
+            <mxPoint x="274" y="-4" as="sourcePoint" />
+            <mxPoint x="434" y="-4" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="324" y="53" />
+            </Array>
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HuEyecqMvvr7R-wiwZbG-35" value="&lt;div&gt;Генерация ссылок для входа представителей&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="93" y="446" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="HuEyecqMvvr7R-wiwZbG-36" value="Просмотр состава учебной группы" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="93" y="661" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="HuEyecqMvvr7R-wiwZbG-37" value="Выбор предмета" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="334" y="584" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="HuEyecqMvvr7R-wiwZbG-38" value="Выбор семестра" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="334" y="661" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="HuEyecqMvvr7R-wiwZbG-39" value="Выбор группы" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="334" y="738" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="HuEyecqMvvr7R-wiwZbG-41" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;" edge="1" parent="1" source="HuEyecqMvvr7R-wiwZbG-36" target="HuEyecqMvvr7R-wiwZbG-39">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="133" y="821" as="sourcePoint" />
+            <mxPoint x="293" y="821" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HuEyecqMvvr7R-wiwZbG-42" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;" edge="1" parent="1" source="HuEyecqMvvr7R-wiwZbG-36" target="HuEyecqMvvr7R-wiwZbG-38">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="147" y="790" as="sourcePoint" />
+            <mxPoint x="307" y="790" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HuEyecqMvvr7R-wiwZbG-43" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;" edge="1" parent="1" source="HuEyecqMvvr7R-wiwZbG-36" target="HuEyecqMvvr7R-wiwZbG-37">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="134" y="838" as="sourcePoint" />
+            <mxPoint x="294" y="838" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HuEyecqMvvr7R-wiwZbG-44" value="Просмотр успеваемости учебной группы" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="93" y="764" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="HuEyecqMvvr7R-wiwZbG-45" value="Выставление оценок студентам" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="93" y="975" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="HuEyecqMvvr7R-wiwZbG-46" value="Назначение дедлайнов" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="93" y="1078" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="HuEyecqMvvr7R-wiwZbG-49" value="Выбор предмета" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="334" y="1039.5" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="HuEyecqMvvr7R-wiwZbG-50" value="Выбор месяца" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="334" y="1116.5" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="HuEyecqMvvr7R-wiwZbG-51" value="&lt;div&gt;Формирование отчета об успеваемости группы в виде таблицы&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="93" y="867" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="HuEyecqMvvr7R-wiwZbG-52" value="Добавление и удаление пользователей" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="93" y="1274" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="HuEyecqMvvr7R-wiwZbG-53" value="Добавление и удаление дисциплин" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="93" y="1366" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="HuEyecqMvvr7R-wiwZbG-55" value="Назначение преподавателей" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="93" y="1458" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="HuEyecqMvvr7R-wiwZbG-56" value="Добавление и удаление учебных групп" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="93" y="1550" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="HuEyecqMvvr7R-wiwZbG-57" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="HuEyecqMvvr7R-wiwZbG-5" target="HuEyecqMvvr7R-wiwZbG-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
